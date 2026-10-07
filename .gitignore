@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+.venv_florence/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Large datasets
+data/lung_colon_image_set/
+data/raw/
+data/archive.zip
+*.zip
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+*.bin
+
+# Generated results
+results/
+outputs/
+runs/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs / temporary files
+*.log
+*.tmp
